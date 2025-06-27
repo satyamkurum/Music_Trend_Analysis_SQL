@@ -2,7 +2,7 @@
 
 A SQL-based project for analyzing trends in a music store database, including artist popularity, album sales, genre distribution, customer behavior, and more. This project uses raw SQL queries to derive actionable insights from a relational music database.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 📦 Music_Trend_Analysis_SQL/
@@ -23,7 +23,7 @@ A SQL-based project for analyzing trends in a music store database, including ar
 - Cleanly structured query file with comments
 - Exportable data (CSV format) for visualization or BI tools
 
-## 🔍 Use Cases
+##  Use Cases
 
 - Learning SQL with real-world schema
 - Interview preparation (joins, aggregations, grouping, subqueries)
@@ -61,18 +61,8 @@ Check `MusicDatabaseSchema.png` to understand the relational schema.
 - SQL client or DB management tool (e.g., pgAdmin, MySQL Workbench, DBeaver)
 - (Optional) Python or Excel to analyze exported `.csv`
 
-## 📊 Sample Queries
 
-```sql
--- Top 5 selling artists
-SELECT artist, COUNT(*) AS total_sales
-FROM sales
-GROUP BY artist
-ORDER BY total_sales DESC
-LIMIT 5;
-```
-
-## 🧠 Author
+##  Author
 
 **Satyam Kurum**  
 [GitHub Profile](https://github.com/satyamkurum)
